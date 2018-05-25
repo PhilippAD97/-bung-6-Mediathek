@@ -12,7 +12,7 @@ public class Vormerkkarte
     public Vormerkkarte(Medium medium)
     {
         _medium = medium;
-
+        _vormerker = new ArrayList<Kunde>(3);
     }
 
     public Kunde getErstenVormerker()
