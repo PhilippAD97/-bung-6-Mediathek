@@ -1,6 +1,6 @@
 package de.uni_hamburg.informatik.swt.se2.mediathek.materialien;
 
-import java.util.List;
+import java.util.*;
 
 import de.uni_hamburg.informatik.swt.se2.mediathek.materialien.medien.Medium;
 
@@ -12,6 +12,7 @@ public class Vormerkkarte
     public Vormerkkarte(Medium medium)
     {
         _medium = medium;
+        _vormerker= new ArrayList(3);
 
     }
 
